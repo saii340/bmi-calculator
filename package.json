@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "coveralls": "ls -l ./coverage/lcov.info",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "cypress": "cypress open"
   },
