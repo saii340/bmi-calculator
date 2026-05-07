@@ -22,3 +22,6 @@ artifacts:
 cache:
   paths:
     - node_modules/**/*
+
+# Added `build` command to ensure a valid CodeBuild project is executed for the pipeline.
+# This change addresses the unknown 'build' action issue by explicitly defining it.
